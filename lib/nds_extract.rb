@@ -18,4 +18,5 @@ def directors_totals(nds)
 end
 name_index +=1
 end
+return total_hash
 end
