@@ -12,7 +12,8 @@ def directors_totals(nds)
      if total_hash[nds[name_index][:name]]
        total_hash[nds[name_index][:name]] += nds[name_index][:movies][gross_index][:worldwide_gross]
      else
-       
+       total_hash[nds[name_index][:name]] = nds[name_index][:movies][gross_index][:worldwide_gross]
+     end
     gross_index += 1
 end
 end
