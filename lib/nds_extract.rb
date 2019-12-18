@@ -9,7 +9,8 @@ def directors_totals(nds)
   while name_index < nds.length do
     gross_index = 0
     while gross_index < nds[name_index][:movies].length do
-     if total_hach[nds[name_index][:name]]
+     if total_hash[nds[name_index][:name]]
+       
     gross_index += 1
 end
 end
