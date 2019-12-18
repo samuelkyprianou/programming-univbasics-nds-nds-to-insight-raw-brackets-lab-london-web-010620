@@ -17,5 +17,4 @@ total_hash = {
   nds[name_index][:name] => total
 }
 end
-name_index += 1
 end
