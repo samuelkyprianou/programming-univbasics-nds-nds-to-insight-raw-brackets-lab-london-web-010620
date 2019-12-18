@@ -17,4 +17,6 @@ total_hash = {
   nds[name_index][:name] => total
 }
 end
+binding.pry
+name_index += 1
 end
