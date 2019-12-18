@@ -16,5 +16,6 @@ def directors_totals(nds)
      end
     gross_index += 1
 end
+name_index +=1
 end
 end
